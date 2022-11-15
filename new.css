@@ -1,0 +1,164 @@
+body {
+  background: #929292;
+
+  margin: 0em;
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  place-content: space-between;
+}
+a {
+  color: rgb(62, 61, 61);
+}
+ul {
+  list-style: circle;
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  padding: 5em 2em;
+}
+
+li {
+  font-size: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+.testers {
+  background: #535353;
+}
+li {
+  font-size: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+.testers {
+  background: #535353;
+}
+.features-section img {
+  display: none;
+}
+.batman {
+  height: 5em;
+  width: 5em;
+  border: 5px;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+.testirs {
+  color: #f7f3f3;
+  background-color: rgb(29, 29, 29);
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 1em;
+}
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  border: 1px solid rgb(0, 0, 0);
+}
+input[type="submit"] {
+  background-color: #292727;
+  color: #e2e2e2;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  cursor: pointer;
+}
+.current {
+  color: #000000;
+  text-decoration: none;
+  display: flexbox;
+  padding: 0.5em;
+  font-size: 1.5;
+  text-align: right;
+  font-weight: bold;
+  border-radius: 1em;
+}
+ul {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+.modal-OPEN {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: rgb(87, 86, 86);
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: rgb(53, 53, 53);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+section {
+  padding: 10em 4em;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.hero-img {
+  width: 30%;
+  margin-right: 8em;
+}
+
+.hero-cta {
+  display: flex;
+}
+.primary-cta {
+  margin-right: 1em;
+}
+
+ul.features-list {
+  display: block;
+  margin-left: 5em;
+}
+
+.features-section {
+  position: relative;
+}
+
+.features-section img {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 350px;
+  bottom: -2em;
+}
+.point {
+  text-transform: uppercase;
+  font-weight: bold;
+}
